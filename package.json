@@ -18,8 +18,6 @@
   "license": "CC0-1.0",
   "dependencies": {
     "descap": "^0.1.0",
-    "object-assign": "^4.1.0",
-    "promise-all": "^1.0.0",
     "stream-array": "^1.1.2",
     "tito": "^0.6.1",
     "webdriverio": "^4.0.9",

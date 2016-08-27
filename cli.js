@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const path = require('path');
-const assign = require('object-assign');
 const streamify = require('stream-array');
 const tito = require('tito').formats;
 
@@ -36,7 +35,7 @@ if (argc.length) {
 
 delete argv._;
 delete argv.$0;
-assign(config, argv);
+Object.assign(config, argv);
 
 if (typeof config.test === 'string' && config.test.match(/\.js$/)) {
   var testPath = resolve(config.test, process.cwd());

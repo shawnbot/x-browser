@@ -57,3 +57,4 @@ The following configuration properties are specific to x-browser:
 [webdriver-manager]: https://www.npmjs.com/package/webdriver-manager
 [BrowserStack]: https://www.browserstack.com/
 [TestingBot]: https://testingbot.com/
+[Mocha]: http://mochajs.org/

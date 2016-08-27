@@ -15,6 +15,7 @@
     "webdriverio"
   ],
   "author": "Shawn Allen (https://github.com/shawnbot)",
+  "repository": "github:shawnbot/x-browser",
   "license": "CC0-1.0",
   "dependencies": {
     "descap": "^0.1.0",

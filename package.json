@@ -1,0 +1,31 @@
+{
+  "name": "x-browser",
+  "version": "0.1.0",
+  "description": "Get the results of a test function from one or more real browsers",
+  "main": "index.js",
+  "bin": {
+    "x-browser": "cli.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "browser",
+    "selenium",
+    "webdriverio"
+  ],
+  "author": "Shawn Allen (https://github.com/shawnbot)",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "descap": "^0.1.0",
+    "object-assign": "^4.1.0",
+    "promise-all": "^1.0.0",
+    "stream-array": "^1.1.2",
+    "tito": "^0.6.1",
+    "webdriverio": "^4.0.9",
+    "yargs": "^4.7.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}

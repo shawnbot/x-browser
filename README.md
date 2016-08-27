@@ -37,7 +37,7 @@ properties that [webdriverio] expects, including:
   object with `browserName`, `version`, and other [Selenium]-compatible
   "desired capabilities"; or a [descap]-compatible shorthand string describing
   one or more browsers.
-* `user` and `key` may be used to provide credentials to [cloud services] such
+* `user` and `key` may be used to provide credentials to cloud services such
   as [Sauce Labs] or [BrowserStack].
 * `host` and `port` may be used to specify the Selenium Server hostname and
   port. If unspecified, the default hostname and port for Selenium Server are

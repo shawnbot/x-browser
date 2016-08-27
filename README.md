@@ -14,6 +14,14 @@ webdriver-manager start
 Or you can use a cloud testing service, such as [BrowserStack], [Sauce Labs],
 or [TestingBot]. See the [examples](examples/) directory for usage.
 
+## Installation
+
+Install it with [npm][npm package]:
+
+```sh
+npm install x-browser
+```
+
 ## API
 
 ### `xbrowser(config[, done])`

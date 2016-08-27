@@ -47,6 +47,13 @@ The following configuration properties are specific to x-browser:
 
 ## CLI
 
+The `x-browser` [npm package] installs a CLI tool, which you can learn more
+about with:
+
+```sh
+x-browser --help
+```
+
 
 [Sauce Labs configurator]: https://wiki.saucelabs.com/display/DOCS/Platform+Configurator
 [Sauce Labs]: https://saucelabs.com/
@@ -58,3 +65,4 @@ The following configuration properties are specific to x-browser:
 [BrowserStack]: https://www.browserstack.com/
 [TestingBot]: https://testingbot.com/
 [Mocha]: http://mochajs.org/
+[npm package]: https://npm.im/x-browser
